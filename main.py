@@ -14,7 +14,6 @@ password = os.environ.get('PASSWORD')
 async def main():
     bot = Bot()
     await bot.init(username, password)
-    input("press close to exit")
 
 
 if __name__ == "__main__":
